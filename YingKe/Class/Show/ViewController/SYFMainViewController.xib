@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SYFMainViewController">
+            <connections>
+                <outlet property="contentScroll" destination="T3B-F0-F2Y" id="NNB-vv-9Lt"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" pagingEnabled="YES" translatesAutoresizingMaskIntoConstraints="NO" id="T3B-F0-F2Y">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                    <connections>
+                        <outlet property="delegate" destination="-1" id="ZM2-JV-Z1x"/>
+                    </connections>
+                </scrollView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="T3B-F0-F2Y" secondAttribute="bottom" id="JRR-lj-i7R"/>
+                <constraint firstItem="T3B-F0-F2Y" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="OYp-vb-TFw"/>
+                <constraint firstItem="T3B-F0-F2Y" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="dqu-d1-2sd"/>
+                <constraint firstAttribute="trailing" secondItem="T3B-F0-F2Y" secondAttribute="trailing" id="nvs-Xt-v9X"/>
+            </constraints>
+            <point key="canvasLocation" x="17" y="-350"/>
+        </view>
+    </objects>
+</document>

@@ -1,0 +1,768 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A42E652D1F14986F00F35A23 /* SYFBaseHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = A42E652C1F14986F00F35A23 /* SYFBaseHandler.m */; };
+		A42E65331F149A0C00F35A23 /* UIImageView+SDWebImage.m in Sources */ = {isa = PBXBuildFile; fileRef = A42E65321F149A0C00F35A23 /* UIImageView+SDWebImage.m */; };
+		A42E65361F149A1700F35A23 /* HttpTool.m in Sources */ = {isa = PBXBuildFile; fileRef = A42E65351F149A1700F35A23 /* HttpTool.m */; };
+		A42E65391F149CB100F35A23 /* SYFLiveHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = A42E65381F149CB100F35A23 /* SYFLiveHandler.m */; };
+		A42E653C1F14A2E900F35A23 /* SYFCreator.m in Sources */ = {isa = PBXBuildFile; fileRef = A42E653B1F14A2E900F35A23 /* SYFCreator.m */; };
+		A42E653F1F14A30A00F35A23 /* SYFLive.m in Sources */ = {isa = PBXBuildFile; fileRef = A42E653E1F14A30A00F35A23 /* SYFLive.m */; };
+		A42E65431F14A38100F35A23 /* SYFNearLiveCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A42E65411F14A38100F35A23 /* SYFNearLiveCell.m */; };
+		A44B66E11F13944B00BC3F74 /* SYFFocuseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A44B66DF1F13944B00BC3F74 /* SYFFocuseViewController.m */; };
+		A44B66E21F13944B00BC3F74 /* SYFFocuseViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A44B66E01F13944B00BC3F74 /* SYFFocuseViewController.xib */; };
+		A44B66E91F13947800BC3F74 /* SYFHotViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A44B66E71F13947800BC3F74 /* SYFHotViewController.m */; };
+		A44B66EA1F13947800BC3F74 /* SYFHotViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A44B66E81F13947800BC3F74 /* SYFHotViewController.xib */; };
+		A44B66EE1F13948F00BC3F74 /* SYFNearViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A44B66EC1F13948F00BC3F74 /* SYFNearViewController.m */; };
+		A44B66F21F1399A500BC3F74 /* SYFMainTopView.m in Sources */ = {isa = PBXBuildFile; fileRef = A44B66F11F1399A500BC3F74 /* SYFMainTopView.m */; };
+		A482DCDB1F10972A0087213A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A482DCDA1F10972A0087213A /* main.m */; };
+		A482DCE41F10972A0087213A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A482DCE21F10972A0087213A /* Main.storyboard */; };
+		A482DCE61F10972A0087213A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A482DCE51F10972A0087213A /* Assets.xcassets */; };
+		A482DCE91F10972A0087213A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A482DCE71F10972A0087213A /* LaunchScreen.storyboard */; };
+		A482DD0E1F109AD40087213A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A482DD0D1F109AD40087213A /* AppDelegate.m */; };
+		A482DD141F10AB2E0087213A /* SYFTabbarVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A482DD131F10AB2E0087213A /* SYFTabbarVC.m */; };
+		A482DD171F10AB570087213A /* SYFTabbarV.m in Sources */ = {isa = PBXBuildFile; fileRef = A482DD161F10AB570087213A /* SYFTabbarV.m */; };
+		A482DD1A1F10B25B0087213A /* SYFBaseVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A482DD191F10B25B0087213A /* SYFBaseVC.m */; };
+		A482DD1E1F10B2760087213A /* SYFMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A482DD1C1F10B2760087213A /* SYFMainViewController.m */; };
+		A482DD1F1F10B2760087213A /* SYFMainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A482DD1D1F10B2760087213A /* SYFMainViewController.xib */; };
+		A482DD231F10B2960087213A /* SYFMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A482DD211F10B2960087213A /* SYFMeViewController.m */; };
+		A482DD241F10B2960087213A /* SYFMeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A482DD221F10B2960087213A /* SYFMeViewController.xib */; };
+		A482DD271F10B3580087213A /* SYFBaseNavViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A482DD261F10B3580087213A /* SYFBaseNavViewController.m */; };
+		A482DD2B1F10C23C0087213A /* SYFLaunchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A482DD291F10C23C0087213A /* SYFLaunchViewController.m */; };
+		A482DD2C1F10C23C0087213A /* SYFLaunchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A482DD2A1F10C23C0087213A /* SYFLaunchViewController.xib */; };
+		A4D040241F13A86700B99AEF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4D040231F13A86700B99AEF /* ViewController.m */; };
+		C8FA2667247161D14F8E3BAD /* libPods-YingKe.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4029F946C7C1F5CB066460F3 /* libPods-YingKe.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		36188AABADB4B0A4872DF994 /* Pods-YingKe.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YingKe.release.xcconfig"; path = "Pods/Target Support Files/Pods-YingKe/Pods-YingKe.release.xcconfig"; sourceTree = "<group>"; };
+		4029F946C7C1F5CB066460F3 /* libPods-YingKe.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YingKe.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3A6135DC4F17F58E4AB7551 /* Pods-YingKe.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YingKe.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YingKe/Pods-YingKe.debug.xcconfig"; sourceTree = "<group>"; };
+		A42E652B1F14986F00F35A23 /* SYFBaseHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYFBaseHandler.h; sourceTree = "<group>"; };
+		A42E652C1F14986F00F35A23 /* SYFBaseHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYFBaseHandler.m; sourceTree = "<group>"; };
+		A42E652E1F1498B300F35A23 /* APIConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APIConfig.h; sourceTree = "<group>"; };
+		A42E65311F149A0C00F35A23 /* UIImageView+SDWebImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+SDWebImage.h"; sourceTree = "<group>"; };
+		A42E65321F149A0C00F35A23 /* UIImageView+SDWebImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+SDWebImage.m"; sourceTree = "<group>"; };
+		A42E65341F149A1700F35A23 /* HttpTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HttpTool.h; sourceTree = "<group>"; };
+		A42E65351F149A1700F35A23 /* HttpTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HttpTool.m; sourceTree = "<group>"; };
+		A42E65371F149CB100F35A23 /* SYFLiveHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYFLiveHandler.h; sourceTree = "<group>"; };
+		A42E65381F149CB100F35A23 /* SYFLiveHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYFLiveHandler.m; sourceTree = "<group>"; };
+		A42E653A1F14A2E900F35A23 /* SYFCreator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYFCreator.h; sourceTree = "<group>"; };
+		A42E653B1F14A2E900F35A23 /* SYFCreator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYFCreator.m; sourceTree = "<group>"; };
+		A42E653D1F14A30A00F35A23 /* SYFLive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYFLive.h; sourceTree = "<group>"; };
+		A42E653E1F14A30A00F35A23 /* SYFLive.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYFLive.m; sourceTree = "<group>"; };
+		A42E65401F14A38100F35A23 /* SYFNearLiveCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYFNearLiveCell.h; sourceTree = "<group>"; };
+		A42E65411F14A38100F35A23 /* SYFNearLiveCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYFNearLiveCell.m; sourceTree = "<group>"; };
+		A44B66DE1F13944B00BC3F74 /* SYFFocuseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYFFocuseViewController.h; sourceTree = "<group>"; };
+		A44B66DF1F13944B00BC3F74 /* SYFFocuseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYFFocuseViewController.m; sourceTree = "<group>"; };
+		A44B66E01F13944B00BC3F74 /* SYFFocuseViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SYFFocuseViewController.xib; sourceTree = "<group>"; };
+		A44B66E61F13947800BC3F74 /* SYFHotViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYFHotViewController.h; sourceTree = "<group>"; };
+		A44B66E71F13947800BC3F74 /* SYFHotViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYFHotViewController.m; sourceTree = "<group>"; };
+		A44B66E81F13947800BC3F74 /* SYFHotViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SYFHotViewController.xib; sourceTree = "<group>"; };
+		A44B66EB1F13948F00BC3F74 /* SYFNearViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYFNearViewController.h; sourceTree = "<group>"; };
+		A44B66EC1F13948F00BC3F74 /* SYFNearViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYFNearViewController.m; sourceTree = "<group>"; };
+		A44B66F01F1399A500BC3F74 /* SYFMainTopView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYFMainTopView.h; sourceTree = "<group>"; };
+		A44B66F11F1399A500BC3F74 /* SYFMainTopView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYFMainTopView.m; sourceTree = "<group>"; };
+		A482DCD61F10972A0087213A /* YingKe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YingKe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A482DCDA1F10972A0087213A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A482DCE31F10972A0087213A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A482DCE51F10972A0087213A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A482DCE81F10972A0087213A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A482DCEA1F10972A0087213A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A482DD0C1F109AD40087213A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A482DD0D1F109AD40087213A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A482DD101F10A8DB0087213A /* SYFMacros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SYFMacros.h; sourceTree = "<group>"; };
+		A482DD111F10A9370087213A /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		A482DD121F10AB2E0087213A /* SYFTabbarVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYFTabbarVC.h; sourceTree = "<group>"; };
+		A482DD131F10AB2E0087213A /* SYFTabbarVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYFTabbarVC.m; sourceTree = "<group>"; };
+		A482DD151F10AB570087213A /* SYFTabbarV.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYFTabbarV.h; sourceTree = "<group>"; };
+		A482DD161F10AB570087213A /* SYFTabbarV.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYFTabbarV.m; sourceTree = "<group>"; };
+		A482DD181F10B25B0087213A /* SYFBaseVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYFBaseVC.h; sourceTree = "<group>"; };
+		A482DD191F10B25B0087213A /* SYFBaseVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYFBaseVC.m; sourceTree = "<group>"; };
+		A482DD1B1F10B2760087213A /* SYFMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYFMainViewController.h; sourceTree = "<group>"; };
+		A482DD1C1F10B2760087213A /* SYFMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYFMainViewController.m; sourceTree = "<group>"; };
+		A482DD1D1F10B2760087213A /* SYFMainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SYFMainViewController.xib; sourceTree = "<group>"; };
+		A482DD201F10B2960087213A /* SYFMeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYFMeViewController.h; sourceTree = "<group>"; };
+		A482DD211F10B2960087213A /* SYFMeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYFMeViewController.m; sourceTree = "<group>"; };
+		A482DD221F10B2960087213A /* SYFMeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SYFMeViewController.xib; sourceTree = "<group>"; };
+		A482DD251F10B3580087213A /* SYFBaseNavViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYFBaseNavViewController.h; sourceTree = "<group>"; };
+		A482DD261F10B3580087213A /* SYFBaseNavViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYFBaseNavViewController.m; sourceTree = "<group>"; };
+		A482DD281F10C23C0087213A /* SYFLaunchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYFLaunchViewController.h; sourceTree = "<group>"; };
+		A482DD291F10C23C0087213A /* SYFLaunchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYFLaunchViewController.m; sourceTree = "<group>"; };
+		A482DD2A1F10C23C0087213A /* SYFLaunchViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SYFLaunchViewController.xib; sourceTree = "<group>"; };
+		A4D040221F13A86700B99AEF /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A4D040231F13A86700B99AEF /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A482DCD31F10972A0087213A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8FA2667247161D14F8E3BAD /* libPods-YingKe.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		06B3159B8F2B8DF487228F08 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A3A6135DC4F17F58E4AB7551 /* Pods-YingKe.debug.xcconfig */,
+				36188AABADB4B0A4872DF994 /* Pods-YingKe.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A482DCCD1F1097290087213A = {
+			isa = PBXGroup;
+			children = (
+				A482DCD81F10972A0087213A /* YingKe */,
+				A482DCD71F10972A0087213A /* Products */,
+				06B3159B8F2B8DF487228F08 /* Pods */,
+				CAB1FD9A8818BF54D4B3AF90 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A482DCD71F10972A0087213A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A482DCD61F10972A0087213A /* YingKe.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A482DCD81F10972A0087213A /* YingKe */ = {
+			isa = PBXGroup;
+			children = (
+				A482DCF01F10995F0087213A /* Class */,
+				A482DCE21F10972A0087213A /* Main.storyboard */,
+				A482DCE51F10972A0087213A /* Assets.xcassets */,
+				A482DCE71F10972A0087213A /* LaunchScreen.storyboard */,
+				A482DCEA1F10972A0087213A /* Info.plist */,
+				A482DCD91F10972A0087213A /* Supporting Files */,
+			);
+			path = YingKe;
+			sourceTree = "<group>";
+		};
+		A482DCD91F10972A0087213A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A482DCDA1F10972A0087213A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A482DCF01F10995F0087213A /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				A482DD0A1F109AD40087213A /* NetWork */,
+				A482DD0B1F109AD40087213A /* Other */,
+				A482DCF61F109AD40087213A /* Base */,
+				A482DCF71F109AD40087213A /* Helper */,
+				A482DCFA1F109AD40087213A /* Launch */,
+				A482DCFF1F109AD40087213A /* Lib */,
+				A482DD001F109AD40087213A /* Live */,
+				A482DD051F109AD40087213A /* Me */,
+				A482DCF11F10995F0087213A /* Show */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		A482DCF11F10995F0087213A /* Show */ = {
+			isa = PBXGroup;
+			children = (
+				A482DCF21F10995F0087213A /* Handler */,
+				A482DCF31F10995F0087213A /* Model */,
+				A482DCF41F10995F0087213A /* View */,
+				A482DCF51F10995F0087213A /* ViewController */,
+			);
+			path = Show;
+			sourceTree = "<group>";
+		};
+		A482DCF21F10995F0087213A /* Handler */ = {
+			isa = PBXGroup;
+			children = (
+				A42E65371F149CB100F35A23 /* SYFLiveHandler.h */,
+				A42E65381F149CB100F35A23 /* SYFLiveHandler.m */,
+			);
+			path = Handler;
+			sourceTree = "<group>";
+		};
+		A482DCF31F10995F0087213A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A42E653A1F14A2E900F35A23 /* SYFCreator.h */,
+				A42E653B1F14A2E900F35A23 /* SYFCreator.m */,
+				A42E653D1F14A30A00F35A23 /* SYFLive.h */,
+				A42E653E1F14A30A00F35A23 /* SYFLive.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A482DCF41F10995F0087213A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A44B66F01F1399A500BC3F74 /* SYFMainTopView.h */,
+				A44B66F11F1399A500BC3F74 /* SYFMainTopView.m */,
+				A42E65401F14A38100F35A23 /* SYFNearLiveCell.h */,
+				A42E65411F14A38100F35A23 /* SYFNearLiveCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A482DCF51F10995F0087213A /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				A482DD1B1F10B2760087213A /* SYFMainViewController.h */,
+				A482DD1C1F10B2760087213A /* SYFMainViewController.m */,
+				A482DD1D1F10B2760087213A /* SYFMainViewController.xib */,
+				A44B66DE1F13944B00BC3F74 /* SYFFocuseViewController.h */,
+				A44B66DF1F13944B00BC3F74 /* SYFFocuseViewController.m */,
+				A44B66E01F13944B00BC3F74 /* SYFFocuseViewController.xib */,
+				A44B66E61F13947800BC3F74 /* SYFHotViewController.h */,
+				A44B66E71F13947800BC3F74 /* SYFHotViewController.m */,
+				A44B66E81F13947800BC3F74 /* SYFHotViewController.xib */,
+				A44B66EB1F13948F00BC3F74 /* SYFNearViewController.h */,
+				A44B66EC1F13948F00BC3F74 /* SYFNearViewController.m */,
+				A482DD201F10B2960087213A /* SYFMeViewController.h */,
+				A482DD211F10B2960087213A /* SYFMeViewController.m */,
+				A482DD221F10B2960087213A /* SYFMeViewController.xib */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		A482DCF61F109AD40087213A /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				A482DD121F10AB2E0087213A /* SYFTabbarVC.h */,
+				A482DD131F10AB2E0087213A /* SYFTabbarVC.m */,
+				A482DD151F10AB570087213A /* SYFTabbarV.h */,
+				A482DD161F10AB570087213A /* SYFTabbarV.m */,
+				A482DD181F10B25B0087213A /* SYFBaseVC.h */,
+				A482DD191F10B25B0087213A /* SYFBaseVC.m */,
+				A482DD251F10B3580087213A /* SYFBaseNavViewController.h */,
+				A482DD261F10B3580087213A /* SYFBaseNavViewController.m */,
+				A42E652B1F14986F00F35A23 /* SYFBaseHandler.h */,
+				A42E652C1F14986F00F35A23 /* SYFBaseHandler.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		A482DCF71F109AD40087213A /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				A482DCF81F109AD40087213A /* Category */,
+				A482DCF91F109AD40087213A /* Tools */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		A482DCF81F109AD40087213A /* Category */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		A482DCF91F109AD40087213A /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		A482DCFA1F109AD40087213A /* Launch */ = {
+			isa = PBXGroup;
+			children = (
+				A482DCFB1F109AD40087213A /* Handler */,
+				A482DCFC1F109AD40087213A /* Model */,
+				A482DCFD1F109AD40087213A /* View */,
+				A482DCFE1F109AD40087213A /* ViewController */,
+			);
+			path = Launch;
+			sourceTree = "<group>";
+		};
+		A482DCFB1F109AD40087213A /* Handler */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Handler;
+			sourceTree = "<group>";
+		};
+		A482DCFC1F109AD40087213A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A482DCFD1F109AD40087213A /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A482DCFE1F109AD40087213A /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		A482DCFF1F109AD40087213A /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+		A482DD001F109AD40087213A /* Live */ = {
+			isa = PBXGroup;
+			children = (
+				A482DD011F109AD40087213A /* Handler */,
+				A482DD021F109AD40087213A /* Model */,
+				A482DD031F109AD40087213A /* View */,
+				A482DD041F109AD40087213A /* ViewController */,
+			);
+			path = Live;
+			sourceTree = "<group>";
+		};
+		A482DD011F109AD40087213A /* Handler */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Handler;
+			sourceTree = "<group>";
+		};
+		A482DD021F109AD40087213A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A482DD031F109AD40087213A /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A482DD041F109AD40087213A /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				A482DD281F10C23C0087213A /* SYFLaunchViewController.h */,
+				A482DD291F10C23C0087213A /* SYFLaunchViewController.m */,
+				A482DD2A1F10C23C0087213A /* SYFLaunchViewController.xib */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		A482DD051F109AD40087213A /* Me */ = {
+			isa = PBXGroup;
+			children = (
+				A482DD061F109AD40087213A /* Handler */,
+				A482DD071F109AD40087213A /* Model */,
+				A482DD081F109AD40087213A /* View */,
+				A482DD091F109AD40087213A /* ViewController */,
+			);
+			path = Me;
+			sourceTree = "<group>";
+		};
+		A482DD061F109AD40087213A /* Handler */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Handler;
+			sourceTree = "<group>";
+		};
+		A482DD071F109AD40087213A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A482DD081F109AD40087213A /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A482DD091F109AD40087213A /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		A482DD0A1F109AD40087213A /* NetWork */ = {
+			isa = PBXGroup;
+			children = (
+				A42E65311F149A0C00F35A23 /* UIImageView+SDWebImage.h */,
+				A42E65321F149A0C00F35A23 /* UIImageView+SDWebImage.m */,
+				A42E65341F149A1700F35A23 /* HttpTool.h */,
+				A42E65351F149A1700F35A23 /* HttpTool.m */,
+				A42E652E1F1498B300F35A23 /* APIConfig.h */,
+			);
+			path = NetWork;
+			sourceTree = "<group>";
+		};
+		A482DD0B1F109AD40087213A /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				A482DD0C1F109AD40087213A /* AppDelegate.h */,
+				A482DD0D1F109AD40087213A /* AppDelegate.m */,
+				A4D040221F13A86700B99AEF /* ViewController.h */,
+				A4D040231F13A86700B99AEF /* ViewController.m */,
+				A482DD111F10A9370087213A /* PrefixHeader.pch */,
+				A482DD101F10A8DB0087213A /* SYFMacros.h */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		CAB1FD9A8818BF54D4B3AF90 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4029F946C7C1F5CB066460F3 /* libPods-YingKe.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A482DCD51F10972A0087213A /* YingKe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A482DCED1F10972A0087213A /* Build configuration list for PBXNativeTarget "YingKe" */;
+			buildPhases = (
+				F0CA9015457444AA8632E54F /* [CP] Check Pods Manifest.lock */,
+				A482DCD21F10972A0087213A /* Sources */,
+				A482DCD31F10972A0087213A /* Frameworks */,
+				A482DCD41F10972A0087213A /* Resources */,
+				C1CC4876623B2DF4204C9AEF /* [CP] Embed Pods Frameworks */,
+				31C388A434526626937DC160 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YingKe;
+			productName = YingKe;
+			productReference = A482DCD61F10972A0087213A /* YingKe.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A482DCCE1F1097290087213A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SYF;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = LeiMo;
+				TargetAttributes = {
+					A482DCD51F10972A0087213A = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = Z3728Q69AW;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = A482DCD11F1097290087213A /* Build configuration list for PBXProject "YingKe" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A482DCCD1F1097290087213A;
+			productRefGroup = A482DCD71F10972A0087213A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A482DCD51F10972A0087213A /* YingKe */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A482DCD41F10972A0087213A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A482DD1F1F10B2760087213A /* SYFMainViewController.xib in Resources */,
+				A482DCE91F10972A0087213A /* LaunchScreen.storyboard in Resources */,
+				A482DD241F10B2960087213A /* SYFMeViewController.xib in Resources */,
+				A482DCE61F10972A0087213A /* Assets.xcassets in Resources */,
+				A44B66E21F13944B00BC3F74 /* SYFFocuseViewController.xib in Resources */,
+				A44B66EA1F13947800BC3F74 /* SYFHotViewController.xib in Resources */,
+				A482DD2C1F10C23C0087213A /* SYFLaunchViewController.xib in Resources */,
+				A482DCE41F10972A0087213A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		31C388A434526626937DC160 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YingKe/Pods-YingKe-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C1CC4876623B2DF4204C9AEF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YingKe/Pods-YingKe-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F0CA9015457444AA8632E54F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A482DCD21F10972A0087213A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4D040241F13A86700B99AEF /* ViewController.m in Sources */,
+				A482DD1E1F10B2760087213A /* SYFMainViewController.m in Sources */,
+				A42E653F1F14A30A00F35A23 /* SYFLive.m in Sources */,
+				A42E65431F14A38100F35A23 /* SYFNearLiveCell.m in Sources */,
+				A42E65361F149A1700F35A23 /* HttpTool.m in Sources */,
+				A42E65331F149A0C00F35A23 /* UIImageView+SDWebImage.m in Sources */,
+				A482DD231F10B2960087213A /* SYFMeViewController.m in Sources */,
+				A482DD0E1F109AD40087213A /* AppDelegate.m in Sources */,
+				A482DD141F10AB2E0087213A /* SYFTabbarVC.m in Sources */,
+				A42E65391F149CB100F35A23 /* SYFLiveHandler.m in Sources */,
+				A482DCDB1F10972A0087213A /* main.m in Sources */,
+				A482DD1A1F10B25B0087213A /* SYFBaseVC.m in Sources */,
+				A42E653C1F14A2E900F35A23 /* SYFCreator.m in Sources */,
+				A44B66E91F13947800BC3F74 /* SYFHotViewController.m in Sources */,
+				A482DD271F10B3580087213A /* SYFBaseNavViewController.m in Sources */,
+				A482DD2B1F10C23C0087213A /* SYFLaunchViewController.m in Sources */,
+				A44B66EE1F13948F00BC3F74 /* SYFNearViewController.m in Sources */,
+				A44B66F21F1399A500BC3F74 /* SYFMainTopView.m in Sources */,
+				A44B66E11F13944B00BC3F74 /* SYFFocuseViewController.m in Sources */,
+				A482DD171F10AB570087213A /* SYFTabbarV.m in Sources */,
+				A42E652D1F14986F00F35A23 /* SYFBaseHandler.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A482DCE21F10972A0087213A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A482DCE31F10972A0087213A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A482DCE71F10972A0087213A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A482DCE81F10972A0087213A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A482DCEB1F10972A0087213A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A482DCEC1F10972A0087213A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A482DCEE1F10972A0087213A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A3A6135DC4F17F58E4AB7551 /* Pods-YingKe.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = Z3728Q69AW;
+				ENABLE_BITCODE = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = /Users/sun/Desktop/YingKe/YingKe/Class/Other/PrefixHeader.pch;
+				INFOPLIST_FILE = YingKe/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sun.YingKe;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A482DCEF1F10972A0087213A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 36188AABADB4B0A4872DF994 /* Pods-YingKe.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = Z3728Q69AW;
+				ENABLE_BITCODE = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = /Users/sun/Desktop/YingKe/YingKe/Class/Other/PrefixHeader.pch;
+				INFOPLIST_FILE = YingKe/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sun.YingKe;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A482DCD11F1097290087213A /* Build configuration list for PBXProject "YingKe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A482DCEB1F10972A0087213A /* Debug */,
+				A482DCEC1F10972A0087213A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A482DCED1F10972A0087213A /* Build configuration list for PBXNativeTarget "YingKe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A482DCEE1F10972A0087213A /* Debug */,
+				A482DCEF1F10972A0087213A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A482DCCE1F1097290087213A /* Project object */;
+}
